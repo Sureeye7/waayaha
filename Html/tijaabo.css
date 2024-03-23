@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    position: relative;
+}
+body{
+    background-color: rgb(167, 167, 106);
+    margin: 0;
+    padding: 0;
+}
+.all{
+    display: flex;
+}
+.minu{
+    width: 50px;
+}
+.minudiv, .minuul{
+    width: 30rem;
+
+}
+.minudiv, .minuul{
+}
+.soo{
+    
+
+}
+.soodiv, .sooul{
+    width: 30rem;
+    
+}
+.sooul{
+
+
+}
+.ali{
+
+}
+.adiv, .aul{
+    margin-left: 5rem;
+    font-size: x-large;
+    width: 11rem;    
+    
+    
+}
+.ali, .ali2{
+    margin: 2px 5px;
+}
+.ku{
+}
+.kudiv, .kuul{
+    margin-top: 5rem;
+    width: 50rem;
+    display: flex;
+    font-size: x-large;
+    margin-left: 10rem;
+
+    
+}
+.kudiv{
+    display: block;
+}
+.s{
+    width: 40rem;
+}
+.sdiv{
+    display: flex;
+    justify-content: center;
+}
+.butt{
+    background-color: yellow;
+    font-size: x-large;
+    color: black;
+    width: 20rem;
+    padding: 20px;
+}
+.buttdiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
