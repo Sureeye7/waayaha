@@ -3,48 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>login</title>
     <style>
-        body{
-            background-color: yellow;
-        }
-        div{
-            display: ;
-        }
-        .all{
-            margin-left: 20%;
-            margin-top: 20%;
-            background-color: rgb(110, 110, 165);
-            width: 20rem;
-        }
-        .holder{
-            display: flex;
-            margin: 25px 25px;
-            width: 15rem;
-            padding: 8px;
-        }
-        .holder1{
-            width: 20rem;
-            padding: 5px;
-            margin-bottom: 2rem;
-            margin-top: 2rem;
-        }
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: #8a2be2;
+    }
+    .all{
+        margin-left: 2rem;
+    
+    }
+    .allform{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+    }
+    .input1{
+        width: 400px;
+        padding: 15px;
+    }
+    button{
+        width: 200px;
+        padding: 20px;
+        background-color: yellow;
+    }
+    .input2{
+        padding: 30px;
+    }
     </style>
 </head>
 <body>
 <div class="all">
-    <h1>fadlan gal  </h1>
-    <form action="/action_page.php">
-    <label for="email">gali emailkaaga
-    </label>
-    <input class="holder" type="email" id="" name="email" multiple
-    placeholder="email">
-    </form>
-    <input class="holder" type="password" multiple
-    placeholder="password" >
-    <a href="">
-        <button class="holder1" type="submit">Login</button>
-    </a>
+    <form action="https://api.web3forms.com/submit" method="POST" class="allform">
+        <h2>Fallo ka bixi</h2>
+        <hr>
+        <input type="hidden" name="access_key" value="dd7fd15a-3c3c-4646-9002-12754156ce49">
+        <input type=" text" name="name"
+         placeholder="Magacaaga" class="input1" required>
+         <input type="email" name="email" placeholder="emailkaaga"  class="input1">
+         <textarea name="Faalo" placeholder="Faaladaada" class="input2"></textarea>
+         <button class="butt" type="submit">submit <img src="folder1.png" alt=""></button>
+</form>
+<div>
+    <img src="sawir1." alt="">
 </div>
-</body>
-</html>
+</div>
+    
+<body>
